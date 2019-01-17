@@ -1,0 +1,19 @@
+{
+  "name": "sequelize-sort-by-distance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "sequelize db:migrate && sequelize db:seed:all",
+    "clear": "sequelize db:seed:undo:all && sequelize db:migrate:undo:all",
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0",
+    "sequelize-cli": "^5.4.0"
+  }
+}

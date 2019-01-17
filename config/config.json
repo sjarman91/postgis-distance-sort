@@ -1,0 +1,13 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": null,
+    "database": "postgis_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "define": {
+      "underscored": true
+    }
+  }
+}
