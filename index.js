@@ -7,3 +7,5 @@ db.sequelize.authenticate()
   .then((clinics) => {
     console.log(clinics);
   })
+
+
